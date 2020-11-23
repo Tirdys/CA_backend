@@ -1,0 +1,43 @@
+<h3>
+    <a href="/student">
+        <i class="fa fa-plus">
+        </i>
+        Create New
+    </a>
+    Student List
+</h3>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Full name</th>
+            <th>Age</th>
+            <th>Email</th>
+            <th>School Paid</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each list}}
+
+        <tr>
+            <td>{{this.fullName}}</td>
+            <td>{{this.age}}</td>
+            <td>{{this.email}}</td>
+            <td>{{this.Schoolpaid}}</td>
+            <td>
+                <a href="">
+                    <i class="fa fa-pencil fa-lg" aria-hidden="true"></i>
+                </a>
+                <a href="">
+                    <i class="fa fa-trash fa-lg" aria-hidden="true">
+
+                    </i>
+                </a>
+            </td>
+        </tr>
+
+
+        {{/each}}
+    </tbody>
+</table>

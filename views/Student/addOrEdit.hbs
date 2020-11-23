@@ -1,0 +1,40 @@
+<h3>{{viewTitle}}</h3>
+
+<form action="/student" method="POST" autocomplete="off">
+    <div class="form-group">
+        <label>Full Name</label>
+        <input type="text" class="form-control" name="fullName" placeholder="Full Name">
+    </div>
+
+    <div class="form-group">
+        <label>Age</label>
+        <input type="number" class="form-control" name="age" placeholder="Age">
+
+    </div>
+
+    <div class="form-row">
+        <div class="form-group md-6">
+            <label>Email</label>
+            <input class="form-control" type="text" name="email" placeholder="Email">
+
+        </div>
+        <div class="form-group md-6">
+            <label>School taxes paid ?</label>
+            <input type="radio" id="yes" name="Schoolpaid" value="Yes" placeholder="PaidYes"> <label
+                for="paid">Yes</label>
+            <input type="radio" id="no" name="Schoolpaid" value="No" placeholder="PaidNo"> <label for="paid">No</label>
+        </div>
+
+
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-info">
+            <i class="fa fa-database"></i>
+            Submit
+        </button>
+        <a href="/student/list" class="btn btn-danger">
+            <i class="fa fa-list-alt"></i>
+            View All
+        </a>
+    </div>
+</form>

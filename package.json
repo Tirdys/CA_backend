@@ -1,0 +1,30 @@
+{
+  "name": "ca_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tirdys/CA_backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tirdys/CA_backend/issues"
+  },
+  "homepage": "https://github.com/Tirdys/CA_backend#readme",
+  "devDependencies": {
+    "handlebars": "^4.5.0",
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "@handlebars/allow-prototype-access": "^1.0.3",
+    "email-validator": "^2.0.4",
+    "exphbs": "^1.2.0",
+    "express-handlebars": "^5.2.0",
+    "mongoose": "^5.10.15"
+  }
+}
